@@ -114,12 +114,5 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-## 👥 Beitrag
-Beiträge sind willkommen! Bitte erstellen Sie einen Pull Request oder öffnen Sie ein Issue für Vorschläge und Verbesserungen.
-
 ## 📝 Lizenz
 Dieses Projekt ist unter der MIT-Lizenz lizenziert.
-
----
-
-*Erstellt von [Ihr Name] - Letzte Aktualisierung: [Datum]*
