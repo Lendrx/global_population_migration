@@ -1,19 +1,130 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
 # Virtual Environment
 venv/
-
-# VS Code
-.vscode/
-*.code-workspace
+ENV/
+env/
+env.bak/
+venv.bak/
 
 # Jupyter Notebook
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
 
-# Python
-__pycache__/
-*.pyc
+# React / Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/build
+/coverage
 
-# macOS
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific files
 .DS_Store
-.AppleDouble
-.LSOverride
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large data files
+*.csv
+*.xlsx
+*.xls
+*.sqlite
+*.db
+
+# Ausnahmen: Wichtige Projektdaten
+!data/world_pop_mig_186_countries.csv
+!data/processed_world_pop_mig_186_countries.csv
+!data/analyzed_*.csv
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Local development settings
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+.coverage
+coverage/
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Documentation
+docs/_build/
+doc/_build/
+
+# credentials and sensitive data
+credentials.json
+secrets.yaml
+config.ini

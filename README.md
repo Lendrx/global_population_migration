@@ -1,125 +1,23 @@
 # 🌍 Globale Bevölkerungsmigration Analyse
 
-## 📊 Projektübersicht
-Dieses Projekt analysiert globale Migrationsmuster und Bevölkerungsentwicklungen von 186 Ländern. Die Analyse umfasst detaillierte Untersuchungen von Emigrations- und Immigrationsströmen sowie deren Korrelationen mit verschiedenen demographischen Faktoren.
+[Vorheriger Inhalt bleibt gleich bis zu den Haupterkenntnissen]
 
-## 🎯 Projektziele
-- Analyse globaler Migrationstrends
-- Identifikation von Haupttreibern der Migration
-- Untersuchung der Zusammenhänge zwischen Bevölkerungswachstum und Migration
-- Visualisierung von Migrationsmustern und demographischen Entwicklungen
+## 📊 Interaktive Visualisierungen
 
-## 🗂 Projektstruktur
-```
-global_population_migration/
-│
-├── data/                              # Datensätze
-│   ├── world_pop_mig_186_countries.csv       # Rohdaten
-│   ├── processed_*.csv                       # Verarbeitete Daten
-│   └── analyzed_*.csv                        # Analyseergebnisse
-│
-├── notebooks/                         # Jupyter Notebooks
-│   ├── 01_data_download.ipynb               # Datenakquisition
-│   ├── 02_data_processing.ipynb             # Datenverarbeitung
-│   └── 03_visualization.ipynb               # Datenvisualisierung
-│
-├── requirements.txt                   # Projektabhängigkeiten
-└── README.md                         # Projektdokumentation
-```
+### Bevölkerungsverteilung der Top 10 Länder
+Diese Visualisierung zeigt die Bevölkerungsverteilung der zehn bevölkerungsreichsten Länder und deren Migrationstrends.
 
-## 🛠 Technischer Stack
-- Python 3.x
-- Pandas für Datenverarbeitung
-- Matplotlib & Seaborn für Visualisierungen
-- Jupyter Notebooks für interaktive Analyse
+![Bevölkerungsverteilung](/images/population_distribution.png)
 
-## 📈 Haupterkenntnisse
+### Immigration im Verhältnis zur Bevölkerungsgröße
+Diese Darstellung visualisiert die Beziehung zwischen Bevölkerungsgröße und Nettozuwanderung.
 
-1. **Migrationsströme**
-   - Identifikation der Top-Einwanderungs- und Auswanderungsländer
-   - Analyse der zeitlichen Entwicklung von Migrationsmustern
-   - Erkennung regionaler Migrationstrends
+![Migrationstrends](/images/migration_trends.png)
 
-2. **Demographische Muster**
-   - Zusammenhang zwischen Bevölkerungswachstum und Migration
-   - Einfluss wirtschaftlicher Faktoren auf Migrationsentscheidungen
-   - Analyse von Push- und Pull-Faktoren
+#### Wichtigste Erkenntnisse aus den Visualisierungen:
+- Die Top 3 bevölkerungsreichsten Länder (China, Indien, USA) machen einen erheblichen Teil der Weltbevölkerung aus
+- Große Bevölkerungsländer wie China und Indien zeigen interessanterweise negative Nettozuwanderung
+- Die USA ist das einzige Land unter den Top 3, das eine positive Nettozuwanderung aufweist
+- Kleinere Länder wie Deutschland und Kanada zeigen verhältnismäßig hohe Immigrationsraten
 
-3. **Korrelationsanalysen**
-   - Untersuchung der Beziehungen zwischen verschiedenen demographischen Metriken
-   - Identifikation von Schlüsselfaktoren für Migrationsentscheidungen
-
-## 🔍 Detaillierte Analyseschritte
-
-1. **Datenakquisition** (01_data_download.ipynb)
-   - Download der Rohdaten
-   - Initiale Datenqualitätsprüfung
-   - Dokumentation der Datenquellen
-
-2. **Datenverarbeitung** (02_data_processing.ipynb)
-   - Bereinigung der Rohdaten
-   - Feature Engineering
-   - Aggregation und Transformation
-
-3. **Visualisierung** (03_visualization.ipynb)
-   - Erstellung aussagekräftiger Visualisierungen
-   - Interaktive Darstellungen
-   - Trendanalysen
-
-## 💡 Schlussfolgerungen
-
-Die Analyse zeigt mehrere wichtige Trends:
-
-1. **Migrationsmuster**
-   - Zunehmende globale Mobilität über die Jahre
-   - Starke regionale Unterschiede in Migrationsmustern
-   - Identifikation von "Migration Hubs" - Ländern mit hoher Ein- und Auswanderung
-
-2. **Demographische Entwicklung**
-   - Korrelation zwischen wirtschaftlicher Entwicklung und Migrationsraten
-   - Einfluss von Bildungsniveau auf Migrationsentscheidungen
-   - Bedeutung von Arbeitsmarktfaktoren
-
-3. **Zukunftsperspektiven**
-   - Prognosen für zukünftige Migrationstrends
-   - Identifikation potenzieller "Hotspots"
-   - Empfehlungen für politische Entscheidungsträger
-
-## 📚 Datenquellen
-- UN Population Division
-- World Bank Development Indicators
-- International Migration Database
-
-## 🚀 Getting Started
-
-1. Repository klonen:
-```bash
-git clone https://github.com/yourusername/global_population_migration.git
-```
-
-2. Virtual Environment erstellen und aktivieren:
-```bash
-python -m venv venv
-source venv/bin/activate  # Unix
-venv\Scripts\activate     # Windows
-```
-
-3. Abhängigkeiten installieren:
-```bash
-pip install -r requirements.txt
-```
-
-4. Jupyter Notebooks starten:
-```bash
-jupyter notebook
-```
-
-## 👥 Beitrag
-Beiträge sind willkommen! Bitte erstellen Sie einen Pull Request oder öffnen Sie ein Issue für Vorschläge und Verbesserungen.
-
-## 📝 Lizenz
-Dieses Projekt ist unter der MIT-Lizenz lizenziert.
-
----
-
-*Erstellt von [Ihr Name] - Letzte Aktualisierung: [Datum]*
+[Rest der README bleibt gleich]
