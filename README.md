@@ -109,17 +109,5 @@ Die Visualisierungen bieten:
 - World Bank Development Indicators
 - International Migration Database
 
-## 🤝 Beitragen
-Beiträge sind willkommen! Bitte erstellen Sie einen Pull Request oder öffnen Sie ein Issue für Vorschläge und Verbesserungen.
-
 ## 📝 Lizenz
 Dieses Projekt ist unter der MIT-Lizenz lizenziert.
-
-## 👤 Autor
-[Ihr Name]
-- GitHub: [@IhrUsername]
-- LinkedIn: [Ihr LinkedIn Profil]
-
----
-
-Zuletzt aktualisiert: [Datum]
