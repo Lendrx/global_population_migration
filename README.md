@@ -108,6 +108,3 @@ Die Visualisierungen bieten:
 - UN Population Division
 - World Bank Development Indicators
 - International Migration Database
-
-## 📝 Lizenz
-Dieses Projekt ist unter der MIT-Lizenz lizenziert.
